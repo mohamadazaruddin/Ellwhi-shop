@@ -1,0 +1,34 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.swiper {
+  height: 100% !important;
+}
+
+.swiper-button-prev {
+  left: 0px !important;
+}
+
+.swiper-button-next {
+  right: 0px !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background: white !important;
+  color: black !important;
+  padding: 20px 5px !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 30px !important;
+}
