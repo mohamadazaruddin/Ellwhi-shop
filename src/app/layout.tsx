@@ -1,4 +1,3 @@
-"use client";
 import { ChakraProvider } from "@chakra-ui/react";
 import "./styles/globals.css";
 import type { Metadata } from "next";
